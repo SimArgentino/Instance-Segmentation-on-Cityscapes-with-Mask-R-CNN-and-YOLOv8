@@ -104,4 +104,26 @@ Based on extensive training and prediction comparisons (test set, class-wise det
 ---
 
 ## 📁 Repository Structure
+├── mask_rcnn/
+│ ├── pretrained/ ← Inference on COCO-pretrained model
+│ └── fine_tuning/ ← Experiments on Cityscapes-v10 (34 classes)
+├── yolo/
+│ ├── dataset_v9_10classi/
+│ └── dataset_v10_34classi/
+├── results/ ← Screenshots and training metrics
+├── cityscapes_versions.csv
+└── README.md
+---
 
+## 📌 Conclusions
+
+- **YOLOv8** is a great choice when speed is a priority, but needs careful tuning to avoid over-detection.
+- **Mask R-CNN** is more robust for dense, small-object environments — especially in urban scenes.
+- The custom **Cityscapes-Instance** dataset proved crucial for adapting these models and balancing results.
+
+---
+
+## 📄 License
+
+All code is released under MIT License.  
+The dataset is adapted from Cityscapes and follows the original [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
