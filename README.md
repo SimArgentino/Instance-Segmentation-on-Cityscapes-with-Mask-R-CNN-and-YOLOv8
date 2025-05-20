@@ -101,20 +101,6 @@ Based on extensive training and prediction comparisons (test set, class-wise det
 - Faster validation improvement, especially with `Adam`  
 - Better results with 25 epochs + larger batch size + rich datasets (v10)
 
----
-
-## 📁 Repository Structure
-├── mask_rcnn/
-│ ├── pretrained/ ← Inference on COCO-pretrained model
-│ └── fine_tuning/ ← Experiments on Cityscapes-v10 (34 classes)
-├── yolo/
-│ ├── dataset_v9_10classi/
-│ └── dataset_v10_34classi/
-├── results/ ← Screenshots and training metrics
-├── cityscapes_versions.csv
-└── README.md
----
-
 ## 📌 Conclusions
 
 - **YOLOv8** is a great choice when speed is a priority, but needs careful tuning to avoid over-detection.
