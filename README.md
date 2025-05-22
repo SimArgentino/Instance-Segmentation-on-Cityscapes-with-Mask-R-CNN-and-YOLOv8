@@ -23,7 +23,7 @@ Each dataset version was exported in **YOLOv8 format** with:
 - **Split**: train/val/test sets with various class configurations
 
 > The dataset is available in a dedicated repository:  
-> 📦 [Cityscapes Instance Dataset (10 Versions)](https://github.com/yourusername/cityscapes-instance-dataset)
+> > 📦 [Cityscapes Instance Dataset (10 Versions)](https://github.com/yourusername/cityscapes-instance-dataset)
 
 ---
 
